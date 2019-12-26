@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-19T21:07:36Z" name="Command line suite" finished-at="2019-12-19T21:07:36Z" duration-ms="44">
+  <suite name="Suite" duration-ms="51" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
     <groups>
     </groups>
-    <test started-at="2019-12-19T21:07:36Z" name="Command line test" finished-at="2019-12-19T21:07:36Z" duration-ms="44">
+    <test name="Test" duration-ms="51" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
       <class name="MavenREST.my_project.SeleniumTest">
-        <test-method signature="SecondSeleniumTest()[pri:0, instance:MavenREST.my_project.SeleniumTest@3c9d0b9d]" started-at="2019-12-19T21:07:36Z" name="SecondSeleniumTest" finished-at="2019-12-19T21:07:36Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="SecondSeleniumTest()[pri:0, instance:MavenREST.my_project.SeleniumTest@5b464ce8]" name="SecondSeleniumTest" duration-ms="1" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondSeleniumTest -->
-        <test-method signature="FirstSeleniumTest()[pri:0, instance:MavenREST.my_project.SeleniumTest@3c9d0b9d]" started-at="2019-12-19T21:07:36Z" name="FirstSeleniumTest" finished-at="2019-12-19T21:07:36Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="FirstSeleniumTest()[pri:0, instance:MavenREST.my_project.SeleniumTest@5b464ce8]" name="FirstSeleniumTest" duration-ms="0" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstSeleniumTest -->
       </class> <!-- MavenREST.my_project.SeleniumTest -->
       <class name="MavenREST.my_project.RestAssuredTest">
-        <test-method signature="FirstRestAssuredTest()[pri:0, instance:MavenREST.my_project.RestAssuredTest@318ba8c8]" started-at="2019-12-19T21:07:36Z" name="FirstRestAssuredTest" finished-at="2019-12-19T21:07:36Z" duration-ms="6" status="PASS">
+        <test-method status="PASS" signature="FirstRestAssuredTest()[pri:0, instance:MavenREST.my_project.RestAssuredTest@30c7da1e]" name="FirstRestAssuredTest" duration-ms="0" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstRestAssuredTest -->
-        <test-method signature="SecondRestAssuredTest()[pri:0, instance:MavenREST.my_project.RestAssuredTest@318ba8c8]" started-at="2019-12-19T21:07:36Z" name="SecondRestAssuredTest" finished-at="2019-12-19T21:07:36Z" duration-ms="3" status="PASS">
+        <test-method status="PASS" signature="SecondRestAssuredTest()[pri:0, instance:MavenREST.my_project.RestAssuredTest@30c7da1e]" name="SecondRestAssuredTest" duration-ms="1" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondRestAssuredTest -->
       </class> <!-- MavenREST.my_project.RestAssuredTest -->
       <class name="MavenREST.my_project.AppiumTest">
-        <test-method signature="FirstAppiumTest()[pri:0, instance:MavenREST.my_project.AppiumTest@6dbb137d]" started-at="2019-12-19T21:07:36Z" name="FirstAppiumTest" finished-at="2019-12-19T21:07:36Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="FirstAppiumTest()[pri:0, instance:MavenREST.my_project.AppiumTest@340f438e]" name="FirstAppiumTest" duration-ms="8" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstAppiumTest -->
-        <test-method signature="SecondAppiumTest()[pri:0, instance:MavenREST.my_project.AppiumTest@6dbb137d]" started-at="2019-12-19T21:07:36Z" name="SecondAppiumTest" finished-at="2019-12-19T21:07:36Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="SecondAppiumTest()[pri:0, instance:MavenREST.my_project.AppiumTest@340f438e]" name="SecondAppiumTest" duration-ms="1" started-at="2019-12-26T20:15:14Z" finished-at="2019-12-26T20:15:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondAppiumTest -->
       </class> <!-- MavenREST.my_project.AppiumTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
